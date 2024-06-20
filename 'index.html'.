@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashTrack - Your Personal Finance Companion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main-header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        #main-header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .cta {
+            background: #e8491d;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+        .cta a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat 0 -400px;
+            text-align: center;
+            color: #ffffff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #ffffff;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        .box img {
+            width: 90px;
+        }
+        .form-container {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 50%;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-container input[type="text"],
+        .form-container input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .form-container button {
+            padding: 10px 20px;
+            background: #35424a;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <h1>CashTrack</h1>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Take Control of Your Finances</h1>
+            <p>Track expenses, manage budgets, and achieve your financial goals effortlessly.</p>
+        </div>
+    </section>
+
+    <section id="main" class="container">
+        <div class="box">
+            <img src="https://via.placeholder.com/90" alt="Easy Expense Tracking">
+            <h3>Easy Expense Tracking</h3>
+            <p>Keep tabs on your spending with intuitive tracking features.</p>
+        </div>
+        <div class="box">
+            <img src="https://via.placeholder.com/90" alt="Budget Management">
+            <h3>Budget Management</h3>
+            <p>Set and manage budgets to stay on top of your finances.</p>
+        </div>
+        <div class="box">
+            <img src="https://via.placeholder.com/90" alt="Financial Goals">
+            <h3>Financial Goals</h3>
+            <p>Define and reach your financial milestones with personalized goal setting.</p>
+        </div>
+    </section>
+
+    <div class="form-container">
+        <h2>Join CashTrack Today!</h2>
+        <form action="https://example.com/submit" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="budget_categories" placeholder="Preferred Budgeting Categories" required>
+            <button type="submit">Get Started for Free</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>Start Your Free Trial Today! &copy; 2023 CashTrack</p>
+    </footer>
+</body>
+</html>
+
