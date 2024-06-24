@@ -1,146 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CashTrack - Your Personal Finance Companion</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        #main-header {
-            background: #35424a;
-            color: #ffffff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
-        }
-        #main-header h1 {
-            text-align: center;
-            text-transform: uppercase;
-            margin: 0;
-            font-size: 24px;
-        }
-        .cta {
-            background: #e8491d;
-            color: #ffffff;
-            padding: 15px;
-            text-align: center;
-        }
-        .cta a {
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 20px;
-        }
-        #showcase {
-            min-height: 400px;
-            background: url('https://via.placeholder.com/1920x1080') no-repeat 0 -400px;
-            text-align: center;
-            color: #ffffff;
-        }
-        #showcase h1 {
-            margin-top: 100px;
-            font-size: 55px;
-            margin-bottom: 10px;
-        }
-        #showcase p {
-            font-size: 20px;
-        }
-        #main {
-            padding: 20px;
-            background: #ffffff;
-        }
-        .box {
-            float: left;
-            width: 30%;
-            padding: 10px;
-            text-align: center;
-        }
-        .box img {
-            width: 90px;
-        }
-        .form-container {
-            background: #ffffff;
-            padding: 20px;
-            margin: 20px auto;
-            width: 50%;
-            text-align: center;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .form-container input[type="text"],
-        .form-container input[type="email"] {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-        }
-        .form-container button {
-            padding: 10px 20px;
-            background: #35424a;
-            color: #ffffff;
-            border: none;
-            cursor: pointer;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #35424a;
-            color: #ffffff;
-        }
-    </style>
-</head>
-<body>
-    <header id="main-header">
-        <div class="container">
-            <h1>CashTrack</h1>
-        </div>
-    </header>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+&lt;title&gt;CashTrack - ATM Locator Service&lt;/title&gt;
+&lt;style&gt;
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
-    <section id="showcase">
-        <div class="container">
-            <h1>Take Control of Your Finances</h1>
-            <p>Track expenses, manage budgets, and achieve your financial goals effortlessly.</p>
-        </div>
-    </section>
+header {
+background-color: #4CAF50;
+color: white;
+padding: 10px 0;
+text-align: center;
+}
 
-    <section id="main" class="container">
-        <div class="box">
-            <img src="https://via.placeholder.com/90" alt="Easy Expense Tracking">
-            <h3>Easy Expense Tracking</h3>
-            <p>Keep tabs on your spending with intuitive tracking features.</p>
-        </div>
-        <div class="box">
-            <img src="https://via.placeholder.com/90" alt="Budget Management">
-            <h3>Budget Management</h3>
-            <p>Set and manage budgets to stay on top of your finances.</p>
-        </div>
-        <div class="box">
-            <img src="https://via.placeholder.com/90" alt="Financial Goals">
-            <h3>Financial Goals</h3>
-            <p>Define and reach your financial milestones with personalized goal setting.</p>
-        </div>
-    </section>
+.logo {
+width: 50px;
+}
 
-    <div class="form-container">
-        <h2>Join CashTrack Today!</h2>
-        <form action="https://example.com/submit" method="post">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="text" name="budget_categories" placeholder="Preferred Budgeting Categories" required>
-            <button type="submit">Get Started for Free</button>
-        </form>
-    </div>
+nav ul {
+list-style: none;
+padding: 0;
+}
 
-    <footer>
-        <p>Start Your Free Trial Today! &copy; 2023 CashTrack</p>
-    </footer>
-</body>
-</html>
+nav ul li {
+display: inline;
+margin: 0 15px;
+}
 
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+#hero {
+background-color: #f4f4f4;
+color: black;
+text-align: center;
+padding: 100px 20px;
+}
+
+#hero .btn {
+background-color: #4CAF50;
+color: white;
+
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
+
+section {
+padding: 20px;
+margin: 20px 0;
+}
+
+.feature {
+background-color: #f4f4f4;
+padding: 20px;
+margin: 10px 0;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;header&gt;
+&lt;img src=&quot;images/logo.png&quot; alt=&quot;CashTrack Logo&quot; class=&quot;logo&quot;&gt;
+&lt;nav&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#how-it-works&quot;&gt;How It Works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;section id=&quot;hero&quot;&gt;
+&lt;h1&gt;Welcome to CashTrack&lt;/h1&gt;
+&lt;p&gt;Revolutionizing ATM Locator Services in Zambia&lt;/p&gt;
+&lt;a href=&quot;#contact&quot; class=&quot;btn&quot;&gt;Get Started&lt;/a&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;features&quot;&gt;
+&lt;h2&gt;Why Choose CashTrack?&lt;/h2&gt;
+&lt;div class=&quot;feature&quot;&gt;
+&lt;h3&gt;Fast and Accurate Searches&lt;/h3&gt;
+&lt;p&gt;Utilize state-of-the-art GPS technology to instantly locate the nearest ATMs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;feature&quot;&gt;
+&lt;h3&gt;Comprehensive Information&lt;/h3&gt;
+
+&lt;p&gt;Find ATMs with essential accessibility features like wheelchair access and braille keypads.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;feature&quot;&gt;
+&lt;h3&gt;Save Time and Money&lt;/h3&gt;
+&lt;p&gt;Compare ATM fees to find the most cost-effective options.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;how-it-works&quot;&gt;
+&lt;h2&gt;How It Works&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Enter Your Location:&lt;/strong&gt; Allow the app to access your location or enter your
+address manually.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search and Filter:&lt;/strong&gt; Use advanced filters to narrow down your search based
+on your needs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get Directions:&lt;/strong&gt; Receive turn-by-turn navigation to the nearest ATM.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+
+&lt;section id=&quot;contact&quot;&gt;
+&lt;h2&gt;Contact Us&lt;/h2&gt;
+&lt;p&gt;Have questions or need more information? Reach out to our team:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; info@cashtrack.com&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Phone:&lt;/strong&gt; +260 97 896 0627&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;footer&gt;
+&lt;p&gt;&amp;copy; 2024 CashTrack. All rights reserved.&lt;/p&gt;
+&lt;/footer&gt;
+
+&lt;script&gt;
+// Placeholder for future JavaScript functionality
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
