@@ -1,138 +1,67 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
-&lt;title&gt;CashTrack - ATM Locator Service&lt;/title&gt;
-&lt;style&gt;
-body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashTrack - ATM Locator Service</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="CashTrack Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-header {
-background-color: #4CAF50;
-color: white;
-padding: 10px 0;
-text-align: center;
-}
+    <section id="hero">
+        <h1>Welcome to CashTrack</h1>
+        <p>Revolutionizing ATM Locator Services in Zambia</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </section>
 
-.logo {
-width: 50px;
-}
+    <section id="features">
+        <h2>Why Choose CashTrack?</h2>
+        <div class="feature">
+            <h3>Fast and Accurate Searches</h3>
+            <p>Utilize state-of-the-art GPS technology to instantly locate the nearest ATMs.</p>
+        </div>
+        <div class="feature">
+            <h3>Comprehensive Information</h3>
+            <p>Find ATMs with essential accessibility features like wheelchair access and braille keypads.</p>
+        </div>
+        <div class="feature">
+            <h3>Save Time and Money</h3>
+            <p>Compare ATM fees to find the most cost-effective options.</p>
+        </div>
+    </section>
 
-nav ul {
-list-style: none;
-padding: 0;
-}
+    <section id="how-it-works">
+        <h2>How It Works</h2>
+        <ol>
+            <li><strong>Enter Your Location:</strong> Allow the app to access your location or enter your address manually.</li>
+            <li><strong>Search and Filter:</strong> Use advanced filters to narrow down your search based on your needs.</li>
+            <li><strong>Get Directions:</strong> Receive turn-by-turn navigation to the nearest ATM.</li>
+        </ol>
+    </section>
 
-nav ul li {
-display: inline;
-margin: 0 15px;
-}
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need more information? Reach out to our team:</p>
+        <p><strong>Email:</strong> info@cashtrack.com</p>
+        <p><strong>Phone:</strong> +260 97 896 0627</p>
+    </section>
 
-nav ul li a {
-color: white;
-text-decoration: none;
-}
+    <footer>
+        <p>&copy; 2024 CashTrack. All rights reserved.</p>
+    </footer>
 
-#hero {
-background-color: #f4f4f4;
-color: black;
-text-align: center;
-padding: 100px 20px;
-}
+    <script src="js/scripts.js"></script>
+</body>
+</html>
 
-#hero .btn {
-background-color: #4CAF50;
-color: white;
-
-padding: 10px 20px;
-text-decoration: none;
-border-radius: 5px;
-}
-
-section {
-padding: 20px;
-margin: 20px 0;
-}
-
-.feature {
-background-color: #f4f4f4;
-padding: 20px;
-margin: 10px 0;
-}
-
-footer {
-background-color: #333;
-color: white;
-text-align: center;
-padding: 10px 0;
-}
-&lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-
-&lt;header&gt;
-&lt;img src=&quot;images/logo.png&quot; alt=&quot;CashTrack Logo&quot; class=&quot;logo&quot;&gt;
-&lt;nav&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;#features&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#how-it-works&quot;&gt;How It Works&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/header&gt;
-
-&lt;section id=&quot;hero&quot;&gt;
-&lt;h1&gt;Welcome to CashTrack&lt;/h1&gt;
-&lt;p&gt;Revolutionizing ATM Locator Services in Zambia&lt;/p&gt;
-&lt;a href=&quot;#contact&quot; class=&quot;btn&quot;&gt;Get Started&lt;/a&gt;
-&lt;/section&gt;
-
-&lt;section id=&quot;features&quot;&gt;
-&lt;h2&gt;Why Choose CashTrack?&lt;/h2&gt;
-&lt;div class=&quot;feature&quot;&gt;
-&lt;h3&gt;Fast and Accurate Searches&lt;/h3&gt;
-&lt;p&gt;Utilize state-of-the-art GPS technology to instantly locate the nearest ATMs.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;feature&quot;&gt;
-&lt;h3&gt;Comprehensive Information&lt;/h3&gt;
-
-&lt;p&gt;Find ATMs with essential accessibility features like wheelchair access and braille keypads.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;feature&quot;&gt;
-&lt;h3&gt;Save Time and Money&lt;/h3&gt;
-&lt;p&gt;Compare ATM fees to find the most cost-effective options.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/section&gt;
-
-&lt;section id=&quot;how-it-works&quot;&gt;
-&lt;h2&gt;How It Works&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Enter Your Location:&lt;/strong&gt; Allow the app to access your location or enter your
-address manually.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Search and Filter:&lt;/strong&gt; Use advanced filters to narrow down your search based
-on your needs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Get Directions:&lt;/strong&gt; Receive turn-by-turn navigation to the nearest ATM.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/section&gt;
-
-&lt;section id=&quot;contact&quot;&gt;
-&lt;h2&gt;Contact Us&lt;/h2&gt;
-&lt;p&gt;Have questions or need more information? Reach out to our team:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Email:&lt;/strong&gt; info@cashtrack.com&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Phone:&lt;/strong&gt; +260 97 896 0627&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;footer&gt;
-&lt;p&gt;&amp;copy; 2024 CashTrack. All rights reserved.&lt;/p&gt;
-&lt;/footer&gt;
-
-&lt;script&gt;
-// Placeholder for future JavaScript functionality
-&lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+	
